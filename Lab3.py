@@ -38,9 +38,9 @@ def bubble_sort(arr, sorting_order):
                     if arr_result[j] < arr_result[j + 1]:
                         arr_result[j], arr_result[j + 1] = arr_result[j + 1], arr_result[j]
 
-                else:
+                #else:
                     # Return an empty array
-                    arr_result = []
+                    #arr_result = []
     else:
         arr_result = -1
 
